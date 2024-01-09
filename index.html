@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Webpage</title>
+    <title>weather Webpage</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <div class="search-box">
-            <i class='bx bxs-map'></i>
+            <i class="fa-solid fa-location-dot"></i>
             <input type="text"placeholder="enter location">
             <button class="srch-btn">Search</button>
         </div>
@@ -28,7 +27,7 @@
         </div>
         <div class="weather-details">
             <div class="humidity">
-                <i class='bx bx-water'></i>
+                <i class="fa-solid fa-water"></i>
                 <div class="text">  
                     <div class="info-humidity">
                         <span>0%</span>
@@ -38,7 +37,7 @@
                 </div>
             </div>
             <div class="wind">
-                <i class="bx bx-wind"></i>
+                <i class="fa-solid fa-wind"></i>
                 <div class="text">
                     <div class="info-wind">
                         <span>0km/h</span>
@@ -51,7 +50,7 @@
         <div class="not-found">
             <div id="box">
                 <img src="images/warning.png">
-                <p>Oops! location not found</p>
+                <p>You have entered wrong location..!!  Please Enter again.</p>
             </div>
         </div>
        
@@ -60,4 +59,3 @@
 </body>
 
 </html>
-    
